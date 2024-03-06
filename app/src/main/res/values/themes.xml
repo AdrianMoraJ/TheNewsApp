@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Adrian_ClementinoMora_practicaPMDM" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/redPrimary</item>
+        <item name="colorPrimaryVariant">@color/redPrimary</item>
+        <item name="android:statusBarColor">@color/redPrimary</item>
+    </style>
+
+    <style name="Theme.Adrian_ClementinoMora_practicaPMDM" parent="Base.Theme.Adrian_ClementinoMora_practicaPMDM" />
+
+    <!--Customizar el área (resaltada) del botón, de la pantalla en la que estemos -->
+
+    <style name="App.Custom.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/redSecondary</item>
+    </style>
+</resources>
