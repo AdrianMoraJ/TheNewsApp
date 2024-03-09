@@ -6,7 +6,6 @@ import android.text.Editable
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
-import android.view.ViewGroup
 import android.widget.AbsListView
 import android.widget.Button
 import android.widget.TextView
@@ -60,7 +59,7 @@ class SearchFragment : Fragment(R.layout.fragment_search) {
             val bundle = Bundle().apply {
                 putSerializable("article", it)
             }
-            findNavController().navigate(R.id.action_searchFragment2_to_articleFragment, bundle)
+            findNavController().navigate(R.id.action_searchFragment_to_articleFragment, bundle)
         }
 
         var job: Job? = null
