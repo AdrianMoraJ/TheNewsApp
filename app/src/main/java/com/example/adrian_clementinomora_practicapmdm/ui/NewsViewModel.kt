@@ -14,7 +14,6 @@ import com.example.adrian_clementinomora_practicapmdm.util.Resource
 import kotlinx.coroutines.launch
 import retrofit2.Response
 import java.io.IOException
-import java.util.Locale.IsoCountryCode
 
 class NewsViewModel(app: Application, val newsRepository: NewsRepository): AndroidViewModel(app) {
 
